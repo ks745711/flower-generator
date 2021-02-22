@@ -1,0 +1,115 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+
+
+
+.w-layout-grid {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-columns: 1fr;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
+}
+
+.div-block {
+  display: flex;
+  align-items: center;
+  width: 50vw;
+  height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+  background-color: rgba(250,250,250,.75)
+
+
+}
+
+
+
+ul {
+  padding: 0;
+  margin-top: 0;
+}
+
+li {
+  list-style: none;
+  font-weight: 400;
+}
+
+p {
+  font-weight: 400;
+}
+
+
+.grid {
+  margin: 4vw;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  -ms-grid-rows: auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto;
+}
+
+
+
+
+
+.dg {
+  color: none;
+  text-shadow: none !important;
+  font-family: 'Open Sans', serif;
+  font-weight: 300;
+}
+
+.dg.main.a {
+  width: 50vw;
+  min-width: 300px !important;
+}
+
+
+.close-button.close-bottom {
+  width: 50vw;
+  min-width: 300px !important;
+}
+
+
+
+
+
+.dg .c .slider-fg {
+  background: #FFFFFF !important;
+}
+
+.dg .cr.number {
+  border-left: 3px solid #FFFFFF !important;
+}
+
+.dg .cr.number input[type=text] {
+  color: #FFFFFF !important;
+}
+
+.dg .cr.string {
+    border-left: 3px solid #FFFFFF !important;
+}
+  
+  .dg .cr.string input[type=text] {
+    color: #FFFFFF !important;
+}
+
+.dg .cr.function {
+    border-left: 3px solid #FFFFFF;
+}
+
+.dg .cr.boolean {
+  border-left: 3px solid #FFFFFF !important;
+}
+
